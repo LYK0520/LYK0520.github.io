@@ -52,6 +52,11 @@ github_username:  LYK0520
 # about_title: About Me (Use this to override about section title)
 about_profile_image: /images/profile.png # path of image which will be displayed in about section
 about_content: | # this will include new lines to allow paragraphs
+  Hello, my name is Luo YiKai, an undergraduate candidate in Digital Media Technology at Hangzhou Dianzi University.
+  I am researching in Image and Video Systems Lab., under the supervision of Professor Yong Man Ro.
+  My major research area is multi-modal representation learning and human interactive learning. 
+  I am more focusing on integrating audio, video, and text modalities in human dialogue system, especially lipreading, lip-to-speech synthesis, and audio-visual speech recognition. 
+  I am also interested in machine translation, speech enhancement, and speech separation using multi-modal representations.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
