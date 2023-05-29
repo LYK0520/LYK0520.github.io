@@ -50,7 +50,7 @@ github_username:  LYK0520
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/profile.png # path of image which will be displayed in about section
+about_profile_image: images/profile.jpg # path of image which will be displayed in about section
 about_content: | # this will include new lines to allow paragraphs
   Hello, my name is Luo YiKai, an undergraduate candidate in Digital Media Technology at Hangzhou Dianzi University.
   I am researching in Image and Video Systems Lab., under the supervision of Professor Yong Man Ro.
