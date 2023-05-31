@@ -53,7 +53,6 @@ github_username:  LYK0520
 about_profile_image: images/profile.png # path of image which will be displayed in about section
 about_content: | # this will include new lines to allow paragraphs
   Hello, my name is Luo YiKai, an undergraduate candidate in Digital Media Technology at Hangzhou Dianzi University.
-  ---
   I am researching in Image and Video Systems Lab., under the supervision of Professor Yong Man Ro.
   My major research area is multi-modal representation learning and human interactive learning. 
   I am more focusing on integrating audio, video, and text modalities in human dialogue system, especially lipreading, lip-to-speech synthesis, and audio-visual speech recognition. 
@@ -67,38 +66,39 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+   title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+     
+      <mark>International Conference</mark>
+      - *Learning Weakly Supervised Audio-Visual Violence Detection in Hyperbolic Space* <a href="https://openreview.net/pdf?id=TfBqRHrDCr" style="color: black;" target="_blank">[link]</a>
+      
+         Xiaogang Peng, Hao Wen, **YiKai Luo**, Xiao Zhou, Yigang Wang, and Zizhao Wu
+         
+         ACM International Conference on Multimedia **(ACM MM), 2023** (under review)
+         
+      - *The MI-Motion Dataset for 3D Multi-Person Motion Prediction* <a href="" style="color: black;" target="_blank">[link]</a>
+      
+         Xiaogang Peng, Xiao Zhou, **YiKai Luo**, Hao Wen
+         
+         Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track **(NeurIPS), 2023**
+         
+  - title: Patent # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Chinese invention patent
+#         link: https://www.kohyoung.com/
+        # link_text: boringcompany.com
+        sub_title: <i>Yikai Luo</i>, Keyang Yu, Qicheng Shen, Zizhao Wu
+        caption: <i>Hangzhou Dianzi University</i>
+#                  <br> 28 August 2019        
         quote: >
-          Short overview of the project (optional)
+          <b>"一种基于可控光源采集装置的面料成分识别系统"</b>
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+           申请号 CN202210651620 ipc分类号 G06V10/141
+       
+
   - title: Education
     layout: list
     content:
