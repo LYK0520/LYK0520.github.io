@@ -96,7 +96,7 @@ content:
          
          Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track **(NeurIPS), 2023**
     
-    - title: Patents # Title for the section
+  - title: Patents # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
