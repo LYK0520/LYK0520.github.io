@@ -54,13 +54,13 @@ about_profile_image: images/profile.png # path of image which will be displayed 
 about_content: | # this will include new lines to allow paragraphs
   Hello, my name is Luo YiKai, an undergraduate candidate in Digital Media Technology at Hangzhou Dianzi University.
 
-  Overall GPA: 4.69/5  Ranked first in major GPA for 5 semesters and first in overall assessment (1/62).
+  **Overall GPA**: **4.69/5**  Ranked first in major GPA for 5 semesters and first in overall assessment **(1/62)**.
 
   Current positions: Party member and Vanguard Team leader, responsible for the top 10 exemplary academic class and the outstanding class leader of the school. Also serving as a freshman class assistant.
-  Received the National Scholarship in 2022, Provincial Government Scholarship in 2021, and 5 first-class scholarships from the university.
+  Received **the National Scholarship in 2022**, **Provincial Government Scholarship in 2021**, and 5 first-class scholarships from the university.
   Recognized as the "Diligent Scholar," "Science and Innovation Star," "Excellent Student," "Star of Learning," "Outstanding League Member," "Outstanding Student Cadre," and awarded the title of "Advanced Individual in Military Training."
   
-  Major courses studied: Operating Systems, Computer Graphics, Internet Technology, Data Structures, Computer Vision, Human-Computer Interaction, and Creative Technology (Machine Learning direction).
+  **Major courses studied**: Operating Systems, Computer Graphics, Internet Technology, Data Structures, Computer Vision, Human-Computer Interaction, and Creative Technology (Machine Learning direction).
 
 content:
 #   - title: Experience # Title for the section
