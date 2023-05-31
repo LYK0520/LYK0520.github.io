@@ -184,9 +184,7 @@ content:
           度反向传播进行迭代训练，将待识别图像输入训练后的神经网络进行特征提取，再通过以自注意力机制为基础的Transformer结构中，利用基于移位窗口
           减少计算数据量。最后通过一次线性变换以及Softmax函数得到概率分布，输出面料图像识别结果。本发明有效地摆脱环境噪声的干扰，实现了对面料图
           像特征的精确提取，以及目标匹配与识别的成功率与准确率。
-- title: Software Copyright # Title for the section
-    layout: text
-    content: | # this will include new lines to allow paragraphs
+
      
 
         
