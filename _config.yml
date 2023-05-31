@@ -66,37 +66,37 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-   title: Publications
-    layout: list
-    content: | # this will include new lines to allow paragraphs
+#    title: Publications
+#     layout: list
+#     content: | # this will include new lines to allow paragraphs
      
-      <mark>International Conference</mark>
-      - *Learning Weakly Supervised Audio-Visual Violence Detection in Hyperbolic Space* <a href="https://openreview.net/pdf?id=TfBqRHrDCr" style="color: black;" target="_blank">[link]</a>
+#       <mark>International Conference</mark>
+#       - *Learning Weakly Supervised Audio-Visual Violence Detection in Hyperbolic Space* <a href="https://openreview.net/pdf?id=TfBqRHrDCr" style="color: black;" target="_blank">[link]</a>
       
-         Xiaogang Peng, Hao Wen, **YiKai Luo**, Xiao Zhou, Yigang Wang, and Zizhao Wu
+#          Xiaogang Peng, Hao Wen, **YiKai Luo**, Xiao Zhou, Yigang Wang, and Zizhao Wu
          
-         ACM International Conference on Multimedia **(ACM MM), 2023** (under review)
+#          ACM International Conference on Multimedia **(ACM MM), 2023** (under review)
          
-      - *The MI-Motion Dataset for 3D Multi-Person Motion Prediction* <a href="" style="color: black;" target="_blank">[link]</a>
+#       - *The MI-Motion Dataset for 3D Multi-Person Motion Prediction* <a href="" style="color: black;" target="_blank">[link]</a>
       
-         Xiaogang Peng, Xiao Zhou, **YiKai Luo**, Hao Wen
+#          Xiaogang Peng, Xiao Zhou, **YiKai Luo**, Hao Wen
          
-         Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track **(NeurIPS), 2023**
+#          Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track **(NeurIPS), 2023**
          
-  - title: Patent # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Chinese invention patent
-#         link: https://www.kohyoung.com/
-        # link_text: boringcompany.com
-        sub_title: <i>Yikai Luo</i>, Keyang Yu, Qicheng Shen, Zizhao Wu
-        caption: <i>Hangzhou Dianzi University</i>
-#                  <br> 28 August 2019        
-        quote: >
-          <b>"一种基于可控光源采集装置的面料成分识别系统"</b>
-        description: | # this will include new lines to allow paragraphs
-           申请号 CN202210651620 ipc分类号 G06V10/141
+#   - title: Patent # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         title: Chinese invention patent
+# #         link: https://www.kohyoung.com/
+#         # link_text: boringcompany.com
+#         sub_title: <i>Yikai Luo</i>, Keyang Yu, Qicheng Shen, Zizhao Wu
+#         caption: <i>Hangzhou Dianzi University</i>
+# #                  <br> 28 August 2019        
+#         quote: >
+#           <b>"一种基于可控光源采集装置的面料成分识别系统"</b>
+#         description: | # this will include new lines to allow paragraphs
+#            申请号 CN202210651620 ipc分类号 G06V10/141
        
 
   - title: Education
