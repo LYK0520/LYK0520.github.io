@@ -103,8 +103,9 @@ content:
         regular: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: 一种基于可控光源采集装置的面料成分识别系统
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        link_text: Yikai Luo, Keyang Yu, Qicheng Shen, Zizhao Wu
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
         # additional_links:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
@@ -113,14 +114,53 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Yikai Luo, Keyang Yu, Qicheng Shen, Zizhao Wu 
+          申请号:CN202210651620 ipc分类号:G06V10/141
         description: | # this will include new lines to allow paragraphs
           本发明公开了一种基于对比学习和自注意力机制的面料织法匹配方法，包括采集多种不同织法的面料图像，经过增强处理后以张量的形式
           存放在模式匹配数据库中。再基于深度学习的基本结构，设计包括残差网络和自编码器的对比学习网络，利用对比损失函数计算正负例的对比计算误
           差，再通过梯度反向传播进行迭代训练；将训练后的自编码器与多头自注意力层级联，提取待检索图像的全局信息和局部细节；采用全连接层和归一化
           残差连接层输出特征，并据此进行概率投射排序，匹配最符合的面料织法模式。本发明解决了面料织法模式匹配问题，将多头自注意力机制引入传统的
           对比学习架构中，实现了对面料织法图像的更优匹配，提高了目标识别和匹配的精度和效率。
-      
+
+        title: 一种基于对比学习和自注意力机制的面料织法匹配方法
+        link_text: Qicheng Shen, Yikai Luo, Keyang Yu,  Zizhao Wu
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          申请号:CN202210645732 ipc分类号:G06V10/74
+        description: | # this will include new lines to allow paragraphs
+          本发明公开了一种基于对比学习和自注意力机制的面料织法匹配方法，包括采集多种不同织法的面料图像，经过增强处理后以张量的形式
+          存放在模式匹配数据库中。再基于深度学习的基本结构，设计包括残差网络和自编码器的对比学习网络，利用对比损失函数计算正负例的对比计算误
+          差，再通过梯度反向传播进行迭代训练；将训练后的自编码器与多头自注意力层级联，提取待检索图像的全局信息和局部细节；采用全连接层和归一化
+          残差连接层输出特征，并据此进行概率投射排序，匹配最符合的面料织法模式。本发明解决了面料织法模式匹配问题，将多头自注意力机制引入传统的
+          对比学习架构中，实现了对面料织法图像的更优匹配，提高了目标识别和匹配的精度和效率。
+
+        title: 一种基于深度学习的面料图像成份识别方法
+        link_text: Keyang Yu, Qicheng Shen, Yikai Luo, Zizhao Wu
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          申请号:CN202210644609 ipc分类号:G06V10/70
+        description: | # this will include new lines to allow paragraphs
+          本发明公开了一种基于深度学习的面料图像成份识别方法。首先采集不同成分的面料图像作为训练数据集。然后采用双三次插值和基于拉
+          普拉斯算子的边缘检测进行图像的缩放和增强。然后根据深度学习的基本架构，设计以ResNet34为主体的卷积神经网络；利用分类的损失函数，通过梯
+          度反向传播进行迭代训练，将待识别图像输入训练后的神经网络进行特征提取，再通过以自注意力机制为基础的Transformer结构中，利用基于移位窗口
+          减少计算数据量。最后通过一次线性变换以及Softmax函数得到概率分布，输出面料图像识别结果。本发明有效地摆脱环境噪声的干扰，实现了对面料图
+          像特征的精确提取，以及目标匹配与识别的成功率与准确率。
 # content:
 #   - title: Projects # Title for the section
 #     layout: list # Type of content section (list/text)
