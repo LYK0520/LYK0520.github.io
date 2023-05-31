@@ -90,11 +90,32 @@ content:
          
          ACM International Conference on Multimedia **(ACM MM), 2023** (under review)
          
-      - *The MI-Motion Dataset for 3D Multi-Person Motion Prediction* <a href="https://arxiv.org/pdf/2302.08841.pdf" style="color: black;" target="_blank">[link]</a>
+      - *The MI-Motion Dataset for 3D Multi-Person Motion Prediction* <a href="" style="color: black;" target="_blank">[link]</a>
       
          Xiaogang Peng, Xiao Zhou, **YiKai Luo**, Hao Wen
          
          Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track **(NeurIPS), 2023**
+    
+    - title: Patents # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 一种基于可控光源采集装置的面料成分识别系统
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
       
 # content:
 #   - title: Projects # Title for the section
