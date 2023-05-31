@@ -114,21 +114,21 @@ content:
          register member：2022SR0789765
 
   - title: Projects
-  layout: text
-  content: | # this will include new lines to allow paragraphs
-    
-    <mark>competition</mark>
-    - *一种基于可控光源采集装置的面料成分识别系统* <a href="" style="color: black;" target="_blank">[link]</a>
-    
-        **YiKai Luo**, Keyang Yu, Qicheng shen, Yi Zhou, Yixiong Gao and Zizhao Wu
-        
-        National Level Undergraduate Innovation and Entrepreneurship Training Program
-        
-    - *《探云录》—基于情绪模型的3D互动叙事游戏设计* <a href="" style="color: black;" target="_blank">[link]</a>
-    
-        **YiKai Luo**, Keyang Yu, Qicheng shen, Zihan Zhou, Haitian Yao and Zizhao Wu
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      
+      <mark>competition</mark>
+      - *一种基于可控光源采集装置的面料成分识别系统* <a href="" style="color: black;" target="_blank">[link]</a>
+      
+          **YiKai Luo**, Keyang Yu, Qicheng shen, Yi Zhou, Yixiong Gao and Zizhao Wu
+          
+          National Level Undergraduate Innovation and Entrepreneurship Training Program
+          
+      - *《探云录》—基于情绪模型的3D互动叙事游戏设计* <a href="" style="color: black;" target="_blank">[link]</a>
+      
+          **YiKai Luo**, Keyang Yu, Qicheng shen, Zihan Zhou, Haitian Yao and Zizhao Wu
 
-        Ministry of Education Industry-Academia Cooperative Education Program (Hangzhou Dianzi University - Tencent).
+          Ministry of Education Industry-Academia Cooperative Education Program (Hangzhou Dianzi University - Tencent).
 
   - title: Patents # Title for the section
     layout: list # Type of content section (list/text)
