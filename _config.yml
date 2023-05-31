@@ -66,90 +66,26 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-   title: Publications
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-     
-      <mark>International Conference</mark>
-      - *Watch or Listen: Robust Audio-Visual Speech Recognition with Visual Corruption Modeling and Reliability Scoring* <a href="https://arxiv.org/pdf/2303.08536.pdf" style="color: black;" target="_blank">[link]</a>
-      
-         **Joanna Hong<span>&#42;</span>**, Minsu Kim<span>&#42;</span>, Jeongsoo Choi, and Yong Man Ro **(<span>&#42;</span> equally contributed)**
-         
-         IEEE/CVF Conference on Computer Vision and Pattern Recognition **(CVPR), 2023**
-         
-      - *Lip-to-Speech Synthesis in the Wild with Multi-task Learning* <a href="https://arxiv.org/pdf/2302.08841.pdf" style="color: black;" target="_blank">[link]</a>
-      
-         Minsu Kim<span>&#42;</span>, **Joanna Hong<span>&#42;</span>**, and Yong Man Ro **(<span>&#42;</span> equally contributed)**
-         
-         IEEE International Conference on Acoustics, Speech and Signal Processing **(ICASSP), 2023**
-         
-      - *VisageSynTalk: Unseen Speaker Video-to-Speech Synthesis via Speech-Visage Feature Selection* <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136960445.pdf" style="color: black;" target="_blank">[link]</a>
-      
-        **Joanna Hong**, Minsu Kim, Yong Man Ro
-        
-        European Conference on Computer Vision **(ECCV), 2022**
-      
-      - *Visual Context-driven Audio Feature Enhancement for Robust End-to-End Audio-Visual Speech Recognition* <a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/hong22_interspeech.pdf" style="color: black;" target="_blank">[link]</a>
-      
-        **Joanna Hong<span>&#42;</span>**, Minsu Kim<span>&#42;</span>, Daehun Yoo, and Yong Man Ro **(<span>&#42;</span> equally contributed)**
-        
-        **Interspeech, 2022 (Oral)**
-      
-      - *SyncTalkFace: Talking Face Generation with Precise Lip-syncing via Audio-Lip Memory* <a href="https://www.aaai.org/AAAI22Papers/AAAI-7528.ParkS.pdf" style="color: black;" target="_blank">[link]</a>
-      
-         Se Jin Park, Minsu Kim, **Joanna Hong**, Jeongsoo Choi, and Yong Man Ro
-        
-         AAAI Conference on Artificial Intelligence **(AAAI), 2022 (Oral)**
-         
-      - *Lip to Speech Synthesis with Visual Context Attentional GAN* <a href="https://proceedings.neurips.cc/paper/2021/file/16437d40c29a1a7b1e78143c9c38f289-Paper.pdf" style="color: black;" target="_blank">[link]</a>
-      
-         Minsu Kim, **Joanna Hong**, Yong Man Ro
-        
-         Conference on Neural Information Processing Systems **(NeuIPS), 2021**
-         
-       - *Multi-Modality Associative Bridging Through Memory: Speech Sound Recollected From Face Video* <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Multi-Modality_Associative_Bridging_Through_Memory_Speech_Sound_Recollected_From_Face_ICCV_2021_paper.pdf" style="color: black;" target="_blank">[link]</a>
-      
-          Minsu Kim<span>&#42;</span>, **Joanna Hong<span>&#42;</span>**, Se Jin Park, Yong Man Ro **(<span>&#42;</span> equally contributed)**
-        
-          IEEE/CVF International Conference on Computer Vision **(ICCV), 2021**
-         
-        - *Unsupervised Disentangling of Viewpoint and Residues Variations by Substituting Representations for Robust Face Recognition* <a href="https://ieeexplore.ieee.org/document/9413039" style="color: black;" target="_blank">[link]</a>
-      
-          Minsu Kim, **Joanna Hong**, Junho Kim, Hong Joo Lee, and Yong Man Ro
-        
-          International Conference on Pattern Recognition **(ICPR), 2021**
-         
-        - *Comprehensive Facial Expression Synthesis Using Human-Interpretable Language* <a href="https://arxiv.org/abs/2007.08154" style="color: black;" target="_blank">[link]</a>
-      
-          **Joanna Hong**, Jung Uk Kim, Sangmin Lee, Yong Man Ro
-        
-          IEEE International Conference on Image Processing **(ICIP), 2020**
-         
-        - *Learning Style Correlation For Elaborate Few-Shot Classification* <a href="https://ieeexplore.ieee.org/document/9190685" style="color: black;" target="_blank">[link]</a>
-      
-          Junho Kim, Minsu Kim, Jung Uk Kim, Hong Joo Lee, Sangmin Lee, **Joanna Hong**, Yong Man Ro
-        
-          IEEE International Conference on Image Processing **(ICIP), 2020**
-         
-        - *Face Tells Detailed Expression: Generating Comprehensive Facial Expression Sentence Through Facial Action Units* <a href="https://dl.acm.org/doi/abs/10.1007/978-3-030-37734-2_9" style="color: black;" target="_blank">[link]</a>
-      
-          **Joanna Hong**, Hong Joo Lee, Yelin Kim, and Yong Man Ro
-        
-          International Conference on Multimedia Modeling **(MMM), 2020**
-                
-      <mark>International Journal</mark>
-      - *Speech Reconstruction with Reminiscent Sound via Visual Voice Memory* <a href="https://ieeexplore.ieee.org/document/9618777" style="color: black;" target="_blank">[link]</a>
-      
-         **Joanna Hong**, Minsu Kim, Se Jin Park, Yong Man Ro
-         
-         IEEE/ACM Transactions on Audio, Speech, and Language Processing **(TASLP), 2021**
-         
-      - *Cromm-vsr: Cross-modal memory augmented visual speech recognition* <a href="https://ieeexplore.ieee.org/abstract/document/9566778" style="color: black;" target="_blank">[link]</a>
-      
-         Minsu Kim, **Joanna Hong**, Se Jin Park, Yong Man Ro
-         
-         IEEE Transactions on Multimedia **(TMM), 2021**
-         
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Project name
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
