@@ -100,11 +100,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        regular: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: 一种基于可控光源采集装置的面料成分识别系统
-        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        # link_text: Link Text
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Link Text
         # additional_links:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
@@ -113,9 +113,13 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Yikai Luo, Keyang Yu, Qicheng Shen, Zizhao Wu 
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          本发明公开了一种基于对比学习和自注意力机制的面料织法匹配方法，包括采集多种不同织法的面料图像，经过增强处理后以张量的形式
+          存放在模式匹配数据库中。再基于深度学习的基本结构，设计包括残差网络和自编码器的对比学习网络，利用对比损失函数计算正负例的对比计算误
+          差，再通过梯度反向传播进行迭代训练；将训练后的自编码器与多头自注意力层级联，提取待检索图像的全局信息和局部细节；采用全连接层和归一化
+          残差连接层输出特征，并据此进行概率投射排序，匹配最符合的面料织法模式。本发明解决了面料织法模式匹配问题，将多头自注意力机制引入传统的
+          对比学习架构中，实现了对面料织法图像的更优匹配，提高了目标识别和匹配的精度和效率。
       
 # content:
 #   - title: Projects # Title for the section
