@@ -95,24 +95,41 @@ content:
          Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track **(NeurIPS), 2023**
       
       <mark>Software Copyright</mark>
-      - *计算机视觉智能识别图像分类管理系统V1.0* <a href="https://openreview.net/pdf?id=TfBqRHrDCr" style="color: black;" target="_blank">[link]</a>
+      - *计算机视觉智能识别图像分类管理系统V1.0* <a href="images/登记证书(2022R11L0829086).jpg" style="color: black;" target="_blank">[link]</a>
       
          **Yikai Luo**, Keyang Yu, Qicheng Shen
          
          register member：2022SR0788142
          
-      - *基于计算机视觉的图像分类处理系统V1.0* <a href="" style="color: black;" target="_blank">[link]</a>
+      - *基于计算机视觉的图像分类处理系统V1.0* <a href="images/登记证书(2022R11L0829268).jpg" style="color: black;" target="_blank">[link]</a>
       
          Qicheng Shen, **Yikai Luo**, Keyang Yu
          
          register member：2022SR0789764
 
-      - *基于计算机视觉的图像智能化分类管理系统V1.0* <a href="" style="color: black;" target="_blank">[link]</a>
+      - *基于计算机视觉的图像智能化分类管理系统V1.0* <a href="images/登记证书(2022R11L0829198).jpg" style="color: black;" target="_blank">[link]</a>
       
          Keyang Yu, Qicheng Shen, **Yikai Luo**
          
          register member：2022SR0789765
+
+  - title: Projects
+  layout: text
+  content: | # this will include new lines to allow paragraphs
     
+    <mark>competition</mark>
+    - *一种基于可控光源采集装置的面料成分识别系统* <a href="" style="color: black;" target="_blank">[link]</a>
+    
+        **YiKai Luo**, Keyang Yu, Qicheng shen, Yi Zhou, Yixiong Gao and Zizhao Wu
+        
+        National Level Undergraduate Innovation and Entrepreneurship Training Program
+        
+    - *《探云录》—基于情绪模型的3D互动叙事游戏设计* <a href="" style="color: black;" target="_blank">[link]</a>
+    
+        **YiKai Luo**, Keyang Yu, Qicheng shen, Zihan Zhou, Haitian Yao and Zizhao Wu
+
+        Ministry of Education Industry-Academia Cooperative Education Program (Hangzhou Dianzi University - Tencent).
+
   - title: Patents # Title for the section
     layout: list # Type of content section (list/text)
     content:
