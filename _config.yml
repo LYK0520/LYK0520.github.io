@@ -121,7 +121,10 @@ content:
           差，再通过梯度反向传播进行迭代训练；将训练后的自编码器与多头自注意力层级联，提取待检索图像的全局信息和局部细节；采用全连接层和归一化
           残差连接层输出特征，并据此进行概率投射排序，匹配最符合的面料织法模式。本发明解决了面料织法模式匹配问题，将多头自注意力机制引入传统的
           对比学习架构中，实现了对面料织法图像的更优匹配，提高了目标识别和匹配的精度和效率。
-
+    content:
+      - layout: left
+        regular: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: 一种基于对比学习和自注意力机制的面料织法匹配方法
         link_text: Qicheng Shen, Yikai Luo, Keyang Yu,  Zizhao Wu
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -141,7 +144,10 @@ content:
           差，再通过梯度反向传播进行迭代训练；将训练后的自编码器与多头自注意力层级联，提取待检索图像的全局信息和局部细节；采用全连接层和归一化
           残差连接层输出特征，并据此进行概率投射排序，匹配最符合的面料织法模式。本发明解决了面料织法模式匹配问题，将多头自注意力机制引入传统的
           对比学习架构中，实现了对面料织法图像的更优匹配，提高了目标识别和匹配的精度和效率。
-
+    content:
+      - layout: left
+        regular: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: 一种基于深度学习的面料图像成份识别方法
         link_text: Keyang Yu, Qicheng Shen, Yikai Luo, Zizhao Wu
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
