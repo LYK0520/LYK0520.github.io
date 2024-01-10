@@ -1,18 +1,18 @@
 "use strict";
 
-// assets 
+// assets 资源
 var csvSrc = "res/csv/atlas.csv";
 var atlasSrc = "res/img/atlas.png";
 
-// game size
+// game size 窗口大小
 var width = 288;
 var height = 512;
 
 // physics
-var xVel = -4;
-var gravity = 1.5;
-var jumpVel = -14;
-var maxFallVel = 15;
+var xVel = -4;//水平速度
+var gravity = 1.5;//重力加速度
+var jumpVel = -14;//跳跃速度
+var maxFallVel = 15;//最大下落速度
 
 // bird
 var birdX = 69;
@@ -40,7 +40,7 @@ var landStartX = 0;
 var landWidth = 288;
 var landY = 400;
 
-// ql
+// ql Q-Learning的相关参数
 var qlAlpha = 0.6;
 var qlGamma = 0.8;
 var qlResolution = 15;
@@ -408,6 +408,7 @@ function drawSprite(spriteName, x, y) {
 }
 
 function render(gameState) {
+    
     if (!render.cvs || !render.ctx) {
         render.cvs = document.getElementById("cvs");
         render.cvs.width = width;
