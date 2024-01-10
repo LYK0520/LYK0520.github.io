@@ -524,14 +524,18 @@ cvs.addEventListener("touchstart", function (e) {
     gameState = jump(gameState);
 });
 
+//游戏循环主程序 GameLoop
 function gameLoop() {
+    //初始化时间速率
     if (!gameLoop.timeScale) {
         gameLoop.timeScale = 1;
         gameLoop.frameCount = 0;
         gameLoop.lastTime = (new Date).getTime();
     }
 
+    //更新game状态
     gameState = update(gameState, gameLoop.frameCount++);
+    //渲染game
     render(gameState);
 
     // draw fps
@@ -542,6 +546,7 @@ function gameLoop() {
 
     gameLoop.eachFrame.update(gameState);
 
+    //再次调用gameLoop，继续游戏循环
     setTimeout(gameLoop, inverseDefaultFPS / gameLoop.timeScale);
 }
 
